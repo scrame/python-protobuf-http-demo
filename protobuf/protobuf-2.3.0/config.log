@@ -35,20 +35,11 @@ PATH: /bin
 PATH: /home/scrame/scripts
 PATH: /home/scrame/bin
 PATH: /home/scrame/go-bin
-PATH: /bin
-PATH: /home/scrame/scripts
-PATH: /home/scrame/bin
 PATH: /usr/local/bin
 PATH: /usr/bin
 PATH: /bin
 PATH: /usr/bin/X11
 PATH: /usr/games
-PATH: /home/scrame/bin/ec2/bin
-PATH: /usr/lib/jvm/java-6-sun//bin
-PATH: /home/scrame/.clojure_src/clojure/bin
-PATH: /sbin/
-PATH: /usr/sbin/
-PATH: /usr/local/sbin
 PATH: /home/scrame/bin/ec2/bin
 PATH: /usr/lib/jvm/java-6-sun//bin
 PATH: /home/scrame/.clojure_src/clojure/bin
@@ -89,8 +80,8 @@ configure:2665: found /usr/bin/gcc
 configure:2676: result: gcc
 configure:2914: checking for C compiler version
 configure:2921: gcc --version >&5
-gcc (Debian 4.3.2-1.1) 4.3.2
-Copyright (C) 2008 Free Software Foundation, Inc.
+gcc (Debian 4.4.2-9) 4.4.3 20100108 (prerelease)
+Copyright (C) 2009 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
@@ -98,9 +89,9 @@ configure:2924: $? = 0
 configure:2931: gcc -v >&5
 Using built-in specs.
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Debian 4.3.2-1.1' --with-bugurl=file:///usr/share/doc/gcc-4.3/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --enable-nls --with-gxx-include-dir=/usr/include/c++/4.3 --program-suffix=-4.3 --enable-clocale=gnu --enable-libstdcxx-debug --enable-objc-gc --enable-mpfr --enable-cld --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.4.2-9' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-objc-gc --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 4.3.2 (Debian 4.3.2-1.1) 
+gcc version 4.4.3 20100108 (prerelease) (Debian 4.4.2-9) 
 configure:2934: $? = 0
 configure:2941: gcc -V >&5
 gcc: '-V' option must have argument
@@ -144,8 +135,8 @@ configure:3764: found /usr/bin/g++
 configure:3775: result: g++
 configure:3806: checking for C++ compiler version
 configure:3813: g++ --version >&5
-g++ (Debian 4.3.2-1.1) 4.3.2
-Copyright (C) 2008 Free Software Foundation, Inc.
+g++ (Debian 4.4.2-9) 4.4.3 20100108 (prerelease)
+Copyright (C) 2009 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
@@ -153,9 +144,9 @@ configure:3816: $? = 0
 configure:3823: g++ -v >&5
 Using built-in specs.
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Debian 4.3.2-1.1' --with-bugurl=file:///usr/share/doc/gcc-4.3/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --enable-nls --with-gxx-include-dir=/usr/include/c++/4.3 --program-suffix=-4.3 --enable-clocale=gnu --enable-libstdcxx-debug --enable-objc-gc --enable-mpfr --enable-cld --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.4.2-9' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-objc-gc --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 4.3.2 (Debian 4.3.2-1.1) 
+gcc version 4.4.3 20100108 (prerelease) (Debian 4.4.2-9) 
 configure:3826: $? = 0
 configure:3833: g++ -V >&5
 g++: '-V' option must have argument
@@ -477,8 +468,8 @@ configure:7784: $? = 0
 configure:7800: result: yes
 configure:7929: checking for C++ compiler version
 configure:7936: g++ --version >&5
-g++ (Debian 4.3.2-1.1) 4.3.2
-Copyright (C) 2008 Free Software Foundation, Inc.
+g++ (Debian 4.4.2-9) 4.4.3 20100108 (prerelease)
+Copyright (C) 2009 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
@@ -486,9 +477,9 @@ configure:7939: $? = 0
 configure:7946: g++ -v >&5
 Using built-in specs.
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Debian 4.3.2-1.1' --with-bugurl=file:///usr/share/doc/gcc-4.3/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --enable-nls --with-gxx-include-dir=/usr/include/c++/4.3 --program-suffix=-4.3 --enable-clocale=gnu --enable-libstdcxx-debug --enable-objc-gc --enable-mpfr --enable-cld --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.4.2-9' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-objc-gc --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 4.3.2 (Debian 4.3.2-1.1) 
+gcc version 4.4.3 20100108 (prerelease) (Debian 4.4.2-9) 
 configure:7949: $? = 0
 configure:7956: g++ -V >&5
 g++: '-V' option must have argument
@@ -678,8 +669,8 @@ configure:16283: $? = 0
 configure:16289: result: ok (1.2.0.4 or later)
 configure:16293: checking for library containing zlibVersion
 configure:16334: g++ -o conftest  -g -DNDEBUG   conftest.cpp  >&5
-/tmp/ccAYv0iT.o: In function `main':
-/home/scrame/workspace/protobuf/protobuf-2.3.0/conftest.cpp:49: undefined reference to `zlibVersion'
+/tmp/cc0o00Mo.o: In function `main':
+/home/scrame/workspace/protocol_buffers_demo/protobuf/protobuf-2.3.0/conftest.cpp:49: undefined reference to `zlibVersion'
 collect2: ld returned 1 exit status
 configure:16340: $? = 1
 configure: failed program was:
@@ -795,11 +786,11 @@ configure: failed program was:
 configure:16729: result: no
 configure:16605: checking whether pthreads work without any flags
 configure:16703: gcc -o conftest     conftest.c  -lz  >&5
-/tmp/cce5vZMq.o: In function `main':
-conftest.c:(.text+0x15): undefined reference to `pthread_join'
-conftest.c:(.text+0x6f): undefined reference to `__pthread_register_cancel'
-conftest.c:(.text+0x88): undefined reference to `pthread_create'
-conftest.c:(.text+0x94): undefined reference to `__pthread_unregister_cancel'
+/tmp/ccwazuHN.o: In function `main':
+conftest.c:(.text+0x18): undefined reference to `pthread_join'
+conftest.c:(.text+0x7e): undefined reference to `__pthread_register_cancel'
+conftest.c:(.text+0x97): undefined reference to `pthread_create'
+conftest.c:(.text+0xa6): undefined reference to `__pthread_unregister_cancel'
 collect2: ld returned 1 exit status
 configure:16709: $? = 1
 configure: failed program was:
@@ -855,11 +846,11 @@ configure:16729: result: no
 configure:16610: checking whether pthreads work with -Kthread
 configure:16703: gcc -o conftest  -Kthread   conftest.c  -lz  >&5
 gcc: unrecognized option '-Kthread'
-/tmp/ccOdODRg.o: In function `main':
-conftest.c:(.text+0x15): undefined reference to `pthread_join'
-conftest.c:(.text+0x6f): undefined reference to `__pthread_register_cancel'
-conftest.c:(.text+0x88): undefined reference to `pthread_create'
-conftest.c:(.text+0x94): undefined reference to `__pthread_unregister_cancel'
+/tmp/ccwHWGY0.o: In function `main':
+conftest.c:(.text+0x18): undefined reference to `pthread_join'
+conftest.c:(.text+0x7e): undefined reference to `__pthread_register_cancel'
+conftest.c:(.text+0x97): undefined reference to `pthread_create'
+conftest.c:(.text+0xa6): undefined reference to `__pthread_unregister_cancel'
 collect2: ld returned 1 exit status
 configure:16709: $? = 1
 configure: failed program was:
@@ -915,11 +906,11 @@ configure:16729: result: no
 configure:16610: checking whether pthreads work with -kthread
 configure:16703: gcc -o conftest  -kthread   conftest.c  -lz  >&5
 gcc: unrecognized option '-kthread'
-/tmp/ccGoYX8p.o: In function `main':
-conftest.c:(.text+0x15): undefined reference to `pthread_join'
-conftest.c:(.text+0x6f): undefined reference to `__pthread_register_cancel'
-conftest.c:(.text+0x88): undefined reference to `pthread_create'
-conftest.c:(.text+0x94): undefined reference to `__pthread_unregister_cancel'
+/tmp/ccmrL5U8.o: In function `main':
+conftest.c:(.text+0x18): undefined reference to `pthread_join'
+conftest.c:(.text+0x7e): undefined reference to `__pthread_register_cancel'
+conftest.c:(.text+0x97): undefined reference to `pthread_create'
+conftest.c:(.text+0xa6): undefined reference to `__pthread_unregister_cancel'
 collect2: ld returned 1 exit status
 configure:16709: $? = 1
 configure: failed program was:
@@ -1071,9 +1062,10 @@ config.status:929: creating src/Makefile
 config.status:929: creating protobuf.pc
 config.status:929: creating protobuf-lite.pc
 config.status:929: creating config.h
+config.status:1182: config.h is unchanged
 config.status:1229: executing depfiles commands
 config.status:1229: executing libtool commands
-configure:19970: === configuring in gtest (/home/scrame/workspace/protobuf/protobuf-2.3.0/gtest)
+configure:19970: === configuring in gtest (/home/scrame/workspace/protocol_buffers_demo/protobuf/protobuf-2.3.0/gtest)
 configure:20073: running /bin/bash ./configure '--prefix=/usr/local'  --cache-file=/dev/null --srcdir=.
 
 ## ---------------- ##
@@ -1187,15 +1179,15 @@ lt_cv_sys_max_cmd_len=1572864
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /home/scrame/workspace/protobuf/protobuf-2.3.0/missing --run aclocal-1.10'
+ACLOCAL='${SHELL} /home/scrame/workspace/protocol_buffers_demo/protobuf/protobuf-2.3.0/missing --run aclocal-1.10'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
-AMTAR='${SHELL} /home/scrame/workspace/protobuf/protobuf-2.3.0/missing --run tar'
+AMTAR='${SHELL} /home/scrame/workspace/protocol_buffers_demo/protobuf/protobuf-2.3.0/missing --run tar'
 AR='ar'
-AUTOCONF='${SHELL} /home/scrame/workspace/protobuf/protobuf-2.3.0/missing --run autoconf'
-AUTOHEADER='${SHELL} /home/scrame/workspace/protobuf/protobuf-2.3.0/missing --run autoheader'
-AUTOMAKE='${SHELL} /home/scrame/workspace/protobuf/protobuf-2.3.0/missing --run automake-1.10'
+AUTOCONF='${SHELL} /home/scrame/workspace/protocol_buffers_demo/protobuf/protobuf-2.3.0/missing --run autoconf'
+AUTOHEADER='${SHELL} /home/scrame/workspace/protocol_buffers_demo/protobuf/protobuf-2.3.0/missing --run autoheader'
+AUTOMAKE='${SHELL} /home/scrame/workspace/protocol_buffers_demo/protobuf/protobuf-2.3.0/missing --run automake-1.10'
 AWK='gawk'
 CC='gcc'
 CCDEPMODE='depmode=gcc3'
@@ -1234,7 +1226,7 @@ LIBTOOL='$(SHELL) $(top_builddir)/libtool'
 LIPO=''
 LN_S='ln -s'
 LTLIBOBJS=''
-MAKEINFO='${SHELL} /home/scrame/workspace/protobuf/protobuf-2.3.0/missing --run makeinfo'
+MAKEINFO='${SHELL} /home/scrame/workspace/protocol_buffers_demo/protobuf/protobuf-2.3.0/missing --run makeinfo'
 NM='/usr/bin/nm -B'
 NMEDIT=''
 OBJEXT='o'
@@ -1294,7 +1286,7 @@ host_vendor='unknown'
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='$(SHELL) /home/scrame/workspace/protobuf/protobuf-2.3.0/install-sh'
+install_sh='$(SHELL) /home/scrame/workspace/protocol_buffers_demo/protobuf/protobuf-2.3.0/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'
