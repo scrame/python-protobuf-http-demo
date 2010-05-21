@@ -1,4 +1,7 @@
-#!/bin/sh
-export SRC_DIR=messages
-export DST_DIR=lib
-protoc -I=$SRC_DIR --python_out=$DST_DIR $SRC_DIR/addressbook.proto
+#!/bin/zsh
+export SRC_DIR=proto
+export DST_DIR=messages
+for i in $SRC_DIR/*.proto
+do
+    protoc -I=$SRC_DIR --python_out=$DST_DIR $SRC_DIR/`basename $i`
+done
