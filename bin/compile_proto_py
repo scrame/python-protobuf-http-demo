@@ -1,0 +1,4 @@
+#!/bin/sh
+export SRC_DIR=messages
+export DST_DIR=lib
+protoc -I=$SRC_DIR --python_out=$DST_DIR $SRC_DIR/addressbook.proto
