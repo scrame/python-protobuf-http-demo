@@ -3,5 +3,5 @@ import httplib
 httplib.HTTPConnection.debuglevel = 1    
 
 import urllib
-data = urllib.urlopen('http://www.cnn.com').read()    
+data = urllib.urlopen('http://diveintomark.org/xml/atom.xml').read()    
 print data
