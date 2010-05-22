@@ -10,7 +10,7 @@ from google.protobuf import descriptor_pb2
 DESCRIPTOR = descriptor.FileDescriptor(
   name='square_messages.proto',
   package='messages',
-  serialized_pb='\n\x15square_messages.proto\x12\x08messages\"\x1d\n\x0csquare_input\x12\r\n\x05value\x18\x01 \x02(\x05\"\x1e\n\rsquare_output\x12\r\n\x05value\x18\x01 \x02(\x05')
+  serialized_pb='\n\x15square_messages.proto\x12\x08messages\"\x1d\n\x0csquare_input\x12\r\n\x05value\x18\x01 \x02(\x03\"\x1e\n\rsquare_output\x12\r\n\x05value\x18\x01 \x02(\x03')
 
 
 
@@ -24,7 +24,7 @@ _SQUARE_INPUT = descriptor.Descriptor(
   fields=[
     descriptor.FieldDescriptor(
       name='value', full_name='messages.square_input.value', index=0,
-      number=1, type=5, cpp_type=1, label=2,
+      number=1, type=3, cpp_type=2, label=2,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -52,7 +52,7 @@ _SQUARE_OUTPUT = descriptor.Descriptor(
   fields=[
     descriptor.FieldDescriptor(
       name='value', full_name='messages.square_output.value', index=0,
-      number=1, type=5, cpp_type=1, label=2,
+      number=1, type=3, cpp_type=2, label=2,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
