@@ -1,0 +1,10 @@
+package messages;
+
+message square_input {
+  required int64 value = 1;
+};
+
+message square_output {
+  required int64 value = 1;
+};
+
